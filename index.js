@@ -71,8 +71,7 @@ client.on('message', message => {
 
     // Checking if author is Horgbros:
     if(message.author.id == horgbros) {
-        message.channel.send(':face_vomiting:');
-        return;
+        message.react('🤮');
     }
 
     // Checking if author is Ekhog:
