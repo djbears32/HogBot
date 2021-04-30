@@ -214,7 +214,7 @@ Also, be careful - if you even mention the hog in any message, it shall be summo
         var roasteeCheck = extraCommand;
         if(roasteeCheck != null) {
             roasteeCheck = roasteeCheck.toLowerCase();
-            while(roasteeCheck.includes('0')) { roasteeCheck = roasteeCheck.replace('0', '0') }
+            while(roasteeCheck.includes('0')) { roasteeCheck = roasteeCheck.replace('0', 'o') }
             while(roasteeCheck.includes('3')) { roasteeCheck = roasteeCheck.replace('3', 'e') }
         }
         extraCommand == null || roasteeCheck.includes('hog') || roasteeCheck.includes('ookie') || roasteeCheck.includes('ockie') ? roastee = 'Horgbros' : roastee = extraCommand;
