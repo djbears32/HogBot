@@ -171,13 +171,13 @@ Also, be careful - if you even mention the hog in any message, it shall be summo
 
     // Command: 'hog map':
     if(command === 'map') {
-        message.channel.send(':boar: The hog presents you with a link: https://tribalwars2map.com/en/en61');
+        message.channel.send(':boar: The hog presents you with a link: https://tribalwars2map.com/en/en65');
         return;
     }
 
     // Command: 'hog forum':
     if(command === 'forum') {
-        message.channel.send(':boar: The hog presents you with a link: https://en.forum.tribalwars2.com/index.php?forums/ilha-dos-ratos-en61.285/');
+        message.channel.send(':boar: The hog presents you with a link: https://en.forum.tribalwars2.com/index.php');
         return;
     }
 
