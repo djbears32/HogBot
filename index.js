@@ -35,7 +35,7 @@ var roasts = ['This dude <X> has more chromosomes than starting villages.', 'Ima
 
 // Bot Messaging Block:
 client.on('message', message => {
-console.log(message.content);
+console.log(message);
     //====================================================================================================//
     //                                            BOT COMMANDS                                            //
     //====================================================================================================//
