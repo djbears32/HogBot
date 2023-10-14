@@ -12,8 +12,12 @@ var hogPassedOut = false;
 
 // User IDs:
 var DJ = '328578198059221003';
+var ekhog = '541269244478881803';
 var horgbros = '552189097347907594';
-//var ekhog = '541269244478881803';
+var ncookie = '130396053399797760';
+var vigilante = '269893084014182410';
+var bcrew = '131451754054287360';
+var aero = '152113822922964992';
 
 // Startup Message:
 client.once('ready', () => {
