@@ -1,3 +1,5 @@
+const { Client, Intents } = require('discord.js');
+
 // HogBot - Written by Ncookie
 // Invite Link: https://discord.com/oauth2/authorize?client_id=743577527796367370&scope=bot&permissions=216128
 
