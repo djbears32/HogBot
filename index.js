@@ -11,6 +11,7 @@ var alcoholCount = 0;
 var hogPassedOut = false;
 
 // User IDs:
+var DJ = '328578198059221003';
 //var ekhog = '541269244478881803';
 
 // Startup Message:
@@ -39,7 +40,7 @@ client.on('message', message => {
 
     // Override Controls:
     var overrideMsg = ':boar::cry: The Hog has left us once more. All is lost. Nothing matters anymore. :cry::boar:';
-    if(message.author.id == ncookie && message.content == 'hog flip') {
+    if(message.author.id == DJ && message.content == 'hog flip') {
         message.channel.send(':cry:');
         override = !override;
         return;
