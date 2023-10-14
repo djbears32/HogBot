@@ -58,7 +58,7 @@ client.on('message', message => {
             }
         }
     }
-    if(message.author.id == ncookie && message.content == 'hog slap') {
+    if(message.author.id == DJ && message.content == 'hog slap') {
         message.channel.send(':exclamation:');
         hogPassedOut = false;
         alcoholCount = 0;
