@@ -270,5 +270,6 @@ Nobles -> 200`);
 
 });
 
+console.log("Token from environment: ", process.env.BOT_TOKEN);
 // Accessing Bot w/ Token:
 client.login(process.env.BOT_TOKEN);
