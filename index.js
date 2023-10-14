@@ -3,7 +3,7 @@
 
 // Initializations:
 const discord = require('discord.js');
-const client = new discord.Client();
+const client = new discord.Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 const key = 'hog';
 const prefix = 'hog ';
 var override = false;
