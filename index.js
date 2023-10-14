@@ -12,6 +12,7 @@ var hogPassedOut = false;
 
 // User IDs:
 var DJ = '328578198059221003';
+var horgbros = '552189097347907594';
 //var ekhog = '541269244478881803';
 
 // Startup Message:
